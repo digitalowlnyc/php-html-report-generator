@@ -1,0 +1,20 @@
+{
+  "name": "roost/php-html-report-generator",
+  "description": "PHP HTML report generator library",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Blue Nest Digital LLC",
+      "email": "software@bnest.co"
+    }
+  ],
+  "require": {
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roost\\HtmlReportGenerator\\": "src"
+    },
+    "files": []
+  }
+}
